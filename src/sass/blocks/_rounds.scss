@@ -1,0 +1,41 @@
+.rounds {
+    padding-bottom: 77px;
+    
+    &__items {
+        display: flex;
+        margin-top: 100px;
+        &:nth-child(2){
+            margin-top: 70px;
+        }
+        img {
+            width: 169px;
+            height: 169px;
+            border-radius:50%;
+        }
+    }
+    &__descr {
+        margin-left: 60px;
+        padding-right: 60px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__signature {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+        color: #0D0D0D;
+        margin-top: 10px;
+        span {
+            font-family: 'MuseoModerno';
+            font-weight: 300;
+            font-size: 16px;
+        }
+    }
+}
